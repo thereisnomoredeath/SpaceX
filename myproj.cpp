@@ -3,7 +3,7 @@
 int main()
 {
     setlocale (LC_ALL, "ru");
-    sf::RenderWindow window(sf::VideoMode(400, 400), "SFML window!");
+    sf::RenderWindow window(sf::VideoMode(500, 500), "SFML window!");
     sf::CircleShape shape(100.f, 3);
     shape.setFillColor(sf::Color::Green);
 
